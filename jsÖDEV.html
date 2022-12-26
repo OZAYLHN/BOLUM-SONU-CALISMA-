@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                  <meta charset="UTF-8">
+                  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                  <title>ZAMAN</title>
+</head>
+<body>
+                  <body class="d-flex h-100 text-center text-bg-dark  mt-5">
+    
+                                    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column mt-5">
+                                    
+                                      <main class="px-3 text-success">
+                                        <h1 class="display-3 r"><i>KODLUYORUZ</i></h1>
+                                        <p class="lead display-4" onload="showTime()">Merhaba, <span class="text-primary" name="isim" id="isim" value=""></span>   !Hoşgeldin!</p>
+                                        <p class="lead display-4">
+                                        <p class="display-4 text-primary" name="zaman" id="zaman"> </p>
+                                        <i class="display-4">tarihinde Javascript bölümündesiniz.</i><br>
+                                        <img class="w-50" src="https://www.dijitalhabitat.com/wp-content/uploads/2019/09/kodlama-1.gif">
+                                      </main>
+                                    
+                                    
+                                    </div>
+                                    
+                                    <link rel="stylesheet" type="text/css" href="chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/css/blur.css" class="loom-blur-styles"></body>
+                                                        <script >
+                                                        
+                                    var isim =prompt("Lütfen adınızı giriniz:")
+                                    
+                                    
+                                    
+                                    if( (isim != "") && (isim != null) ) 
+                                       
+                                        document.getElementById("isim").innerHTML = isim;
+                                        
+                                       else if(isim == "") 
+                                       
+                                       alert("Boş giriş yaptınız!");
+                                    
+                                    
+                                    
+                                                      var now = new Date();
+                                                         document.getElementById("zaman").innerHTML = now;
+                                    
+                                    
+                                    
+                                    
+                                                        </script>
+                  
+</body>
+</html>
